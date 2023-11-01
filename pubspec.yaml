@@ -1,0 +1,47 @@
+name: saar
+description: A new Aplication to help the farmers making their decisions in the field
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_datetime_picker: ^1.5.1
+  intl: ^0.17.0
+  carousel_slider: ^4.0.0
+  date_field: ^2.0.3
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  shared_preferences: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background.png
+    - assets/logo.png
+    - assets/Culturas/mandioca.png
+    - assets/Culturas/batataDoce.png
+    - assets/Culturas/sorgo.png
+    - assets/Culturas/feijaoV.png
+    - assets/Culturas/cebola.png
+    - assets/Culturas/cebola.png
+    - assets/Culturas/algodao.png
+    - assets/Culturas/feijaoS.png
+    - assets/Culturas/gergelim.png
+    - assets/Culturas/girassol.png
+    - assets/Culturas/milhoS.png
+    - assets/Culturas/milhoV.png
+    - assets/Solos/SoloTipo1.png
+    - assets/Solos/SoloTipo2.png
+    - assets/Solos/SoloTipo3.png
